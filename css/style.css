@@ -1,0 +1,51 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Open+Sans&family=Orbitron:wght@500;700&family=Oswald&display=swap');
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: yellow;
+    align-items: center;
+
+}
+
+.navbar a{
+    color: red;
+    margin: 30px;
+    text-decoration: none;
+    
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+ ul{
+    display: flex;
+    align-items: center;
+ }
+
+  @media (max-width: 800px) {
+
+            .nav-link{
+
+            display: none;
+
+            }
+    
+  }
