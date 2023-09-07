@@ -41,12 +41,19 @@ li{
     align-items: center;
  }
  
+ select{
+    margin-top: 20px;
+    
+ }
+
+ label{
+    margin-left: 20px;
+ }
 
  section{
     display: flex;
     margin-top: 20px;
     flex-wrap: wrap;
-    
  }
  
 .container{
@@ -59,18 +66,19 @@ li{
  width: 14.3vw;
     border: 3px solid blue;
     border-radius: 10px;
-   
-
 }
 
-
 img{
-    width: 14vw;
-    
+    width: 14vw; 
 }
 
 .card-text{
     margin-top: 10px;
     font-size: 0.8em;
-
 }
+
+.titre{
+
+    color: rgb(10, 227, 10);
+}
+  
