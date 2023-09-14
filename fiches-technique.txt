@@ -1,0 +1,123 @@
+
+
+
+
+
+
+
+
+
+<div class="card-container">
+
+<div class="card-header-ft">
+<img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+</div>
+
+<div class="card-text-ft">
+ <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
+Type du moteur	4 cylindres en ligne<br>
+Energie 	Essence<br>
+Disposition	Transversal avant<br>
+Alimentation 	Injection électronique<br>
+Suralimentation<br>
+Distribution 	Double arbre à cames en tête<br>
+Nombre de soupapes 	4 par cylindre<br>
+Alésage & Course 	83.0 x 88.0 mm<br>
+Cylindrée 	1905 cc<br>
+Compression 	10.4<br>
+Puissance 	160 chevaux à 6500 tr/min<br>
+Couple 	18.4 mkg à 5000 tr/min<br>
+</div>
+
+
+<div class="card-container">
+
+<div class="card-header-ft">
+<img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+</div>
+
+<div class="card-text-ft">
+ <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
+Type du moteur	4 cylindres en ligne<br>
+Energie 	Essence<br>
+Disposition	Transversal avant<br>
+Alimentation 	Injection électronique<br>
+Suralimentation<br>
+Distribution 	Double arbre à cames en tête<br>
+Nombre de soupapes 	4 par cylindre<br>
+Alésage & Course 	83.0 x 88.0 mm<br>
+Cylindrée 	1905 cc<br>
+Compression 	10.4<br>
+Puissance 	160 chevaux à 6500 tr/min<br>
+Couple 	18.4 mkg à 5000 tr/min<br>
+</div>
+
+
+<div class="card-container">
+
+<div class="card-header-ft">
+<img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+</div>
+
+<div class="card-text-ft">
+ <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
+Type du moteur	4 cylindres en ligne<br>
+Energie 	Essence<br>
+Disposition	Transversal avant<br>
+Alimentation 	Injection électronique<br>
+Suralimentation<br>
+Distribution 	Double arbre à cames en tête<br>
+Nombre de soupapes 	4 par cylindre<br>
+Alésage & Course 	83.0 x 88.0 mm<br>
+Cylindrée 	1905 cc<br>
+Compression 	10.4<br>
+Puissance 	160 chevaux à 6500 tr/min<br>
+Couple 	18.4 mkg à 5000 tr/min<br>
+</div>
+
+
+<div class="card-container">
+
+<div class="card-header-ft">
+<img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+</div>
+
+<div class="card-text-ft">
+ <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
+Type du moteur	4 cylindres en ligne<br>
+Energie 	Essence<br>
+Disposition	Transversal avant<br>
+Alimentation 	Injection électronique<br>
+Suralimentation<br>
+Distribution 	Double arbre à cames en tête<br>
+Nombre de soupapes 	4 par cylindre<br>
+Alésage & Course 	83.0 x 88.0 mm<br>
+Cylindrée 	1905 cc<br>
+Compression 	10.4<br>
+Puissance 	160 chevaux à 6500 tr/min<br>
+Couple 	18.4 mkg à 5000 tr/min<br>
+</div>
+
+
+<div class="card-container">
+
+<div class="card-header-ft">
+<img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+</div>
+
+<div class="card-text-ft">
+ <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
+Type du moteur	4 cylindres en ligne<br>
+Energie 	Essence<br>
+Disposition	Transversal avant<br>
+Alimentation 	Injection électronique<br>
+Suralimentation<br>
+Distribution 	Double arbre à cames en tête<br>
+Nombre de soupapes 	4 par cylindre<br>
+Alésage & Course 	83.0 x 88.0 mm<br>
+Cylindrée 	1905 cc<br>
+Compression 	10.4<br>
+Puissance 	160 chevaux à 6500 tr/min<br>
+Couple 	18.4 mkg à 5000 tr/min<br>
+</div>
+
