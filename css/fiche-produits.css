@@ -8,7 +8,7 @@
 }
 
 body{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif; 
 }
 
 
@@ -52,8 +52,12 @@ li{
 
  section{
     display: flex;
+    justify-content: center;
     margin-top: 20px;
     flex-wrap: wrap;
+   max-width: 700px;
+   margin: auto;
+   
  }
  
 .container{
@@ -62,10 +66,11 @@ li{
  justify-content: space-between;
  align-items: center;
  margin-top: 20px;
- height: 51vh;
+ height: 55vh;
  width: 14.3vw;
-    border: 3px solid blue;
-    border-radius: 10px;
+border: 3px solid blue;
+border-radius: 10px;
+
 }
 
 img{
@@ -78,7 +83,48 @@ img{
 }
 
 .titre{
-
     color: rgb(10, 227, 10);
 }
+
+article{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20%;
+    
+}
+.card-container{
+    margin-top: 30px;
+   
+    width: 60vw;
+    height: 60vh;
+}
+
+   .ft{
+
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px grey;
+   }
+
   
+
+      
+@media(max-width: 1224px){
+
+    section{
+
+        flex-direction: column;
+    }
+
+    .container {
+
+        width: 35vw;
+    }
+
+    img{
+
+        width: 34.6vw;
+    }
+
+   
+}
