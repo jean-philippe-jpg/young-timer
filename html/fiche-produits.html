@@ -13,15 +13,17 @@
         <div class="nav-link">
             <ul>
                 <li><a href="../html/index.html">Accueil</a></li>
-                <li><a href="#">Annonces</a></li>
-                <li><a href="#">Fiche Techniques</a></li>
+                <li class="annonces-peugeot"><a href="#">Annonces</a></li>
+                <li id="fiche-technique" onclick="loadDoc()"><a href="#">Fiche Techniques</a></li>
                 <li><a href="#">A propos</a></li>
             </ul>
         </nav>
 
+        <article id="description">
+        </article>
         
-            <label for="automobiles">choix de votre bolide :</label>
-            <select name="voiture" id="voiture">
+            <label class="annonces"  name="automobiles">choix de votre bolide :</label>
+            <select class="annonces" name="voiture" id="voiture">
                 <option value="">--Auto--</option>
                 <option value="106" id="106">106</option>
                 <option value="205" id="205">205</option>
@@ -29,7 +31,7 @@
                 <option value="405" id="405">405</option>
                 <option value="505" id="505">505</option>
             </select>
-        <section >
+        <section class="annonces">
        <div class="container un" >
         <p class="titre" >106 1.1L</p>
         <div class="card-header">
