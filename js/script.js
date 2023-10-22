@@ -17,13 +17,27 @@ document.getElementById("heure").innerHTML = heure + ":" + minutes + ":" + secon
 
 
 $(document).ready(function(){
-
-    $('#fiche-technique').click(function(){
-
-        $('#annonces').hide();
-    })
-
     
-})
+    $('#accueil').click(function(){
+    $('.date-heure').hide();
+    })
+});
 
 
+
+function loadDoc(){
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function(){
+            if(this.readyState == 4 && this.status == 200){
+
+                document.getElementById("description").innerHTML =
+                this.responseText;
+            }
+    };
+
+    xhr.open("GET", "../fiches-technique.txt", true)
+    
+    xhr.send();
+}
