@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/fiche-produits.css">
+    
     <title>Young timer Peugeot</title>
 </head>
 <body>
     <nav class="navbar">
         <a href="#" class="logo"> young timer<br> peugeot</a>
         <div class="nav-link">
+            
             <ul>
                 <li id="accueil"><a href="#">Accueil</a></li>
                 <li id="annonces-peugeot"><a href="#">Annonces</a></li>
                 <li id="fiche-technique" onclick="loadDoc()"><a href="#">Fiche Techniques</a></li>
                 <li><a href="#">A propos</a></li>
             </ul>
+            </div>
+            <img class="menu" src="../images/menu_4204600.png">
         </nav>
 
         <section class="date-heure">
@@ -25,11 +29,11 @@
             <div id="heure"></div>
         </section>
 
-        <article id="description">
+        <article id="fiche">
         </article>
         
-            <label class="annonces"  name="automobiles">choix de votre bolide :</label>
-            <select class="annonces" name="voiture" id="voiture">
+            <label id="annonces-input"  name="automobiles">choix de votre bolide :</label>
+            <select id="annonces-option" name="voiture" id="voiture">
                 <option value="">--Auto--</option>
                 <option value="106" id="106">106</option>
                 <option value="205" id="205">205</option>
@@ -37,199 +41,198 @@
                 <option value="405" id="405">405</option>
                 <option value="505" id="505">505</option>
             </select>
-        <section class="annonces">
-       <div class="container un" >
+        <section id="annonces">
+          <div class="container un" >
         <p class="titre" >106 1.1L</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
-       </div>
+          </div>
        <div class="container cinq" >
         <p class="titre" >505 GR</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+       
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg" > 
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container un" >
         <p class="titre" >106 1.1L</p>       
-         <div class="card-header">            
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+                    
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
-            <br>Cylindrées : 2L<br> CV : 130</p>
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <br> Cylindrées : 2L <br> CV : 130</p>
         </div>
         
        </div>
        <div class="container deux" >
         <p class="titre">205 GTI</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container trois" >
         <p class="titre" >305 GTI</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container deux" >
         <p class="titre" >205 RALLYE</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container quatre" >
         <p class="titre" >405 MI16</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container un" >
         <p class="titre" >106 RALLYE</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+       
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container cinq" >
         <p class="titre" >505 GTI</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+       
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container cinq" >
         <p class="titre" >505 GTI</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container un" >
         <p class="titre" >106 RALLYE</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container quatre" >
         <p class="titre" >405 MI16</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+       
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+       
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container deux" >
         <p class="titre" >205 RALLYE</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container trois" >
         <p class="titre" >305 GR</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+       
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container trois" >
         <p class="titre" >305 GR</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+       
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container deux" >
         <p class="titre" >205 GTI</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+       
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p >Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container quatre" >
         <p class="titre" >405 MI16</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+        
         <div class="card-text">
-            <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
+            <p>Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>
         </div>
         
        </div>
        <div class="container un" >
         <p class="titre" >106 RALLYE</p>
-        <div class="card-header">
-            <img src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
-        </div>
+        
+            <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
+       
         <div class="card-text">
             <p class="description">Marque : Peugoet<br>Modele : 405<br>Année : 1990<br>Carburant : essence<br><br>Kilometrage : 148 523
             <br>Cylindrées : 2L<br> CV : 130</p>

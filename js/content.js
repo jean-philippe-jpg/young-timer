@@ -32,23 +32,23 @@ $(document).ready(function(){
 
         $('.un, .deux, .trois, .quatre,').hide();
         $('.cinq').show();
-       });
+       })
 
         $('#fiche-technique').click(function(){
-        $('.annonces').hide();
-        $('.date-heure').hide();
+            $('#fiche').show();
+        $('#annonces, #annonces-option, #annonces-input, .date-heure').hide();
     })
 
         $('#annonces-peugeot').click(function(){
-            $('#description').hide();
-            $('.date-heure').hide();
+            $('#annonces, #annonces-input, #annonces-option').show();
+            $('#fiche, .date-heure').hide();
         })
 
-});
+        })
 
         $('#accueil').click(function(){
-            $('.annonces').hide();
-            $('#description').hide();
+            $('.date-heure').show();
+            $('#annonces-input, #annonces-option, #annonces, #fiche').hide();
 
         })
 
@@ -81,7 +81,7 @@ function loadDoc(){
     xhr.onreadystatechange = function(){
             if(this.readyState == 4 && this.status == 200){
 
-                document.getElementById("description").innerHTML =
+                document.getElementById("fiche").innerHTML =
                 this.responseText;
             }
     };
