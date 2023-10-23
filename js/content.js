@@ -52,6 +52,11 @@ $(document).ready(function(){
 
         })
 
+        $('.navbar-brand').click(function(){
+
+            $('.date-heure').show();
+        })
+
 var dateGlobal = new Date();
 var heureGlobal = new Date();
 
@@ -70,25 +75,24 @@ document.getElementById("heure").innerHTML = heure + ":" + minutes + ":" + secon
 
 
 
-
-
-
-
-function loadDoc(){
+function loadDoc() {
 
     var xhr = new XMLHttpRequest();
 
-    xhr.onreadystatechange = function(){
-            if(this.readyState == 4 && this.status == 200){
+    xhr.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
 
-                document.getElementById("fiche").innerHTML =
+            document.getElementById("fiche").innerHTML =
                 this.responseText;
-            }
+
+        }
     };
 
-    xhr.open("GET", "../fiches-technique.txt", true)
-    
+    xhr.open("GET", "../fiches-technique.txt", true);
     xhr.send();
-}
+
+};
+
+
 
 

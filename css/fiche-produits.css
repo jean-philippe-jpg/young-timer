@@ -20,7 +20,7 @@ body{
 
 }
 
-.navbar a{
+ a{
     color: red;
     text-decoration: none;
 }
@@ -30,11 +30,12 @@ li{
     margin-right: 35px;
 }
 
-.navbar .logo{
+.navbar-brand{
     display: flex;
     align-items: center;
     margin-left: 35px;
     font-size: 2rem;
+    color: red;
 }
 
 
@@ -59,7 +60,7 @@ li{
      margin: auto;
    
  }
- #annonces > .container{
+  .container{
     margin-top: 20px;
     border: 3px solid blue;
     border-radius: 10px;
@@ -83,12 +84,12 @@ li{
    
 }
 
-#annonces > .card-text{
+.card-text{
     margin-top: 10px;
     font-size: 0.8em;
 }
 
-#annonces .titre{
+ .titre{
     color: rgb(10, 227, 10);
 }
 
@@ -111,7 +112,7 @@ article{
 
 }
 
-#fiche > .card{
+.card{
    
     width: 30vw;
     border-radius: 12px;
@@ -119,15 +120,20 @@ article{
     border: 1px solid green;
 }
 
-#fiche > .card:hover{
+ .card:hover{
 
     box-shadow: 10px 10px 5px gray;
     border: solid blue;
+
+    strong{
+        color: green;
+    }
 }
 
-#fiche, .card-text{
+ #fiche .card-text{
 
     margin-left: 20px;
+    margin-bottom: 20px;
 
 }
    
@@ -136,7 +142,10 @@ article{
     width: 29.8vw;
     padding: 0px;
    }
+     strong{
 
+        color: blue;
+    }
    .date-heure {
     display: flex;
     justify-content: space-evenly;
@@ -169,13 +178,11 @@ article{
 @media (max-width: 1300px) {
 
     .nav-link{
-
     display: none;
 
     }
 
      .menu{
-
         height: 50px;
         width: 40px;
         margin-right: 50px;
@@ -188,7 +195,6 @@ article{
 @media(min-width: 1299px) {
 
      .menu{
-
         display: none;
     }
 }
