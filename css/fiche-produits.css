@@ -7,6 +7,13 @@
     list-style: none;
 }
 
+ .menu-drop{
+
+    display: none;
+ }
+
+ 
+
 body{
     font-family: 'Orbitron', sans-serif; 
 }
@@ -17,12 +24,14 @@ body{
     justify-content: space-between;
     background: yellow;
     align-items: center;
+    
 
 }
 
  a{
     color: red;
     text-decoration: none;
+     
 }
 
 li{
@@ -36,6 +45,7 @@ li{
     margin-left: 35px;
     font-size: 2rem;
     color: red;
+    margin-bottom: 20px;
 }
 
 
@@ -43,6 +53,7 @@ li{
     display: flex;
     align-items: center;
  }
+
  
  select{
     margin-top: 20px;
@@ -60,29 +71,39 @@ li{
      margin: auto;
    
  }
-  .container{
+
+
+  .card-annonce {
     margin-top: 20px;
+    margin-left: 20px;
     border: 3px solid blue;
     border-radius: 10px;
     text-align: center;
     width: 20vw;
+    display: none;
+ }
+
+ #annonces-input{
+
+    display: none;
+ }
+
+ #annonces-option{
+
+    display: none;
  }
  .description-annonces{
 
     display: flex;
 }
 
-.container:hover{
+.card-annonce:hover{
 
     box-shadow: 10px 10px 5px grey;
 }
 
-.voitures-annonces{
-    width: 19.8vw;
-   padding: 0px;
-   margin-left: -12px;
-   
-}
+
+
 
 .card-text{
     margin-top: 10px;
@@ -107,13 +128,20 @@ article{
 }
 
 #fiche{
+
    align-items: center;
    margin-left: -5vw;
+   
 
 }
 
-.card{
+img{
+    width: 19.8vw;
    
+}
+
+
+.card{
     width: 30vw;
     border-radius: 12px;
     margin-top: 20px;
@@ -130,7 +158,7 @@ article{
     }
 }
 
- #fiche .card-text{
+.card-text-ft{
 
     margin-left: 20px;
     margin-bottom: 20px;
@@ -139,40 +167,39 @@ article{
    
    .ft{
     border-radius: 12px;
-    width: 29.8vw;
-    padding: 0px;
+    width: 30vw;
+    
    }
      strong{
 
         color: blue;
     }
+
    .date-heure {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20vh;
     font-size: 2rem;
-    color: rgb(11, 3, 232)
- }
+    color: rgb(11, 3, 232);
+    margin-left: 25%;
+    
+   }
    
 
 @media(max-width: 1224px){
 
-    section{
-
-        flex-direction: column;
-    }
-
-    .container {
+    .card-annonce {
 
         width: 35vw;
+        margin-top: 40px;
+        margin: auto;
     }
 
     img{
 
-        width: 46.3vw;
+        width: 34.9vw;
     }
-
-   
+    
 }
 
 @media (max-width: 1300px) {
@@ -183,18 +210,46 @@ article{
     }
 
      .menu{
-        height: 50px;
+        height: 40px;
         width: 40px;
         margin-right: 50px;
         
      }
-
    
 }
+
+
 
 @media(min-width: 1299px) {
 
      .menu{
         display: none;
+    }
+    #drop-down{
+
+        display: none;
+    }
+}
+
+@media(max-width: 1225px){
+
+    section{
+
+        flex-direction: column;
+    }
+
+    .card-annonce{
+
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width: 950px){
+
+    .card{
+
+        width: 55vw;
+        
     }
 }

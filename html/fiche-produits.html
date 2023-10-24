@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/fiche-produits.css">
-    
     <title>Young timer Peugeot</title>
 </head>
 <body>
     <nav class="navbar">
         <a href="#" class="navbar-brand"> young timer<br> peugeot</a>
         <div class="nav-link">
-            
             <ul>
                 <li id="accueil" ><a href="#">Accueil</a></li>
-                <li id="annonces-peugeot"><a href="#">Annonces</a></li>
+                <li id="annonces-peugeot" ><a href="#">Annonces</a></li>
                 <li id="fiche-technique" onclick="loadDoc()"><a href="#">Fiche Techniques</a></li>
             </ul>
-            </div>
-            <img class="menu" src="../images/menu_4204600.png">
+        </div>
+            <a href="#"><img type="btn" class="menu" src="../images/menu_4204600.png"></a>
         </nav>
+
+        <div id="drop-down">
+            <ul class="menu-drop">
+                <a href="#" class="btn-close"></a>
+                <li id="accueil-drop" ><a href="#">Accueil</a></li>
+                <li id="annonces-peugeot-drop" ><a href="#">Annonces</a></li>
+                <li id="fiche-technique-drop" onclick="loadDoc()"><a href="#">Fiche Techniques</a></li>
+            </ul>
+        </div>
 
         <section class="date-heure">
             Nous somme le : 
@@ -41,8 +48,11 @@
                 <option value="405" id="405">405</option>
                 <option value="505" id="505">505</option>
             </select>
-        <section id="annonces">
-          <div class="container un" >
+
+
+        <section id="container-annonces ">
+
+          <div class="card-annonce un" >
         <p class="titre" >106 1.1L</p>
 
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -52,7 +62,7 @@
         </div>
         
           </div>
-       <div class="container cinq" >
+       <div class="card-annonce cinq" >
         <p class="titre" >505 GR</p>
        
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg" > 
@@ -63,7 +73,7 @@
         </div>
         
        </div>
-       <div class="container un" >
+       <div class="card-annonce un" >
         <p class="titre" >106 1.1L</p>       
                     
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -74,7 +84,7 @@
         </div>
         
        </div>
-       <div class="container deux" >
+       <div class="card-annonce deux" >
         <p class="titre">205 GTI</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -85,7 +95,7 @@
         </div>
         
        </div>
-       <div class="container trois" >
+       <div class="card-annonce trois" >
         <p class="titre" >305 GTI</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -96,7 +106,7 @@
         </div>
         
        </div>
-       <div class="container deux" >
+       <div class="card-annonce deux" >
         <p class="titre" >205 RALLYE</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -107,7 +117,7 @@
         </div>
         
        </div>
-       <div class="container quatre" >
+       <div class="card-annonce quatre" >
         <p class="titre" >405 MI16</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -118,7 +128,7 @@
         </div>
         
        </div>
-       <div class="container un" >
+       <div class="card-annonce un" >
         <p class="titre" >106 RALLYE</p>
        
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -129,7 +139,7 @@
         </div>
         
        </div>
-       <div class="container cinq" >
+       <div class="card-annonce cinq" >
         <p class="titre" >505 GTI</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -140,7 +150,7 @@
         </div>
         
        </div>
-       <div class="container cinq" >
+       <div class="card-annonce cinq" >
         <p class="titre" >505 GTI</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -151,7 +161,7 @@
         </div>
         
        </div>
-       <div class="container un" >
+       <div class="card-annonce un" >
         <p class="titre" >106 RALLYE</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -162,7 +172,7 @@
         </div>
         
        </div>
-       <div class="container quatre" >
+       <div class="card-annonce quatre" >
         <p class="titre" >405 MI16</p>
        
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -173,7 +183,7 @@
         </div>
         
        </div>
-       <div class="container deux" >
+       <div class="card-annonce deux" >
         <p class="titre" >205 RALLYE</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -184,7 +194,7 @@
         </div>
         
        </div>
-       <div class="container trois" >
+       <div class="card-annonce trois" >
         <p class="titre" >305 GR</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -195,7 +205,7 @@
         </div>
         
        </div>
-       <div class="container trois" >
+       <div class="card-annonce trois" >
         <p class="titre" >305 GR</p>
        
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -206,7 +216,7 @@
         </div>
         
        </div>
-       <div class="container deux" >
+       <div class="card-annonce deux" >
         <p class="titre" >205 GTI</p>
        
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -217,7 +227,7 @@
         </div>
         
        </div>
-       <div class="container quatre" >
+       <div class="card-annonce quatre" >
         <p class="titre" >405 MI16</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
@@ -228,7 +238,7 @@
         </div>
         
        </div>
-       <div class="container un" >
+       <div class="card-annonce un" >
         <p class="titre" >106 RALLYE</p>
         
             <img class="voitures-annonces" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
