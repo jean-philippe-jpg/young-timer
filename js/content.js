@@ -36,26 +36,58 @@ $(document).ready(function(){
 
         $('#fiche-technique').click(function(){
             $('#fiche').show();
-        $('#annonces, #annonces-option, #annonces-input, .date-heure').hide();
+        $('.card-annonce, #annonces-option, #annonces-input, .date-heure').hide();
     })
 
         $('#annonces-peugeot').click(function(){
-            $('#annonces, #annonces-input, #annonces-option').show();
+            $('.card-annonce, #annonces-input, #annonces-option').show();
             $('#fiche, .date-heure').hide();
         })
 
-        })
 
         $('#accueil').click(function(){
             $('.date-heure').show();
-            $('#annonces-input, #annonces-option, #annonces, #fiche').hide();
+            $('#annonces-input, #annonces-option, .card-annonce, #fiche').hide();
 
         })
+
+        $('#accueil-drop').click(function(){
+            $('.date-heure').show();
+            $('#annonces-input, #annonces-option, .card-annonce, #fiche').hide();
+        })
+
+        $('#annonces-peugeot-drop').click(function(){
+            $('.card-annonce, #annonces-input, #annonces-option').show();
+            $('#fiche, .date-heure').hide();
+        })
+        
+        $('#fiche-technique-drop').click(function(){
+            $('#fiche').show();
+        $('.card-annonce, #annonces-option, #annonces-input, .date-heure').hide();
+    })
 
         $('.navbar-brand').click(function(){
-
             $('.date-heure').show();
         })
+
+
+        $('.menu').click(function(){
+
+            $('#drop-down').show();
+            $('#drop-down').css({ "border-radius": "12px","margin-top": "5vh", "margin-left": "20px", "position": "fixed", "height": "250px", "width": "150px", "background": "orange"});
+            $('.menu-drop').css({"display": "block", "margin-top": "30px"});
+            $('#close').css({"color-text": "black"});
+        })
+
+        $('.btn-close').click(function(){
+            $('#drop-down').hide();
+        })
+
+
+        })
+
+       
+
 
 var dateGlobal = new Date();
 var heureGlobal = new Date();

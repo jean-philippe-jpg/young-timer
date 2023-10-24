@@ -11,7 +11,7 @@
 
 <img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
 
-<div class="card-text">
+<div class="card-text-ft">
  <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
  <p id="text-ft">
 <strong>Type du moteur : </strong>	4 cylindres en ligne<br>
@@ -34,7 +34,7 @@
 
 <img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
 
-<div class="card-text">
+<div class="card-text-ft">
  <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
 <strong>Type du moteur : </strong>	4 cylindres en ligne<br>
 <strong>Energie : </strong>	Essence<br>
@@ -55,7 +55,7 @@
 
 <img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
 
-<div class="card-text">
+<div class="card-text-ft">
  <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
 <strong>Type du moteur : </strong>	4 cylindres en ligne<br>
 <strong>Energie : </strong>	Essence<br>
@@ -76,7 +76,7 @@
 
 <img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
 
-<div class="card-text">
+<div class="card-text-ft">
  <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
 <strong>Type du moteur : </strong>	4 cylindres en ligne<br>
 <strong>Energie : </strong>	Essence<br>
@@ -97,7 +97,7 @@
 
 <img class="ft" src="../images/peugeot-405-mi-16-phase-1-de-1989.jpg">
 
-<div class="card-text">
+<div class="card-text-ft">
  <h3>Moteur Peugeot 405 Mi 16 (1990-1992)</h3>
 <strong>Type du moteur : </strong>	4 cylindres en ligne<br>
 <strong>Energie : </strong>	Essence<br>
