@@ -7,11 +7,31 @@
     list-style: none;
 }
 
+#drop-down{
+
+    margin-top: 5vh;
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    position: fixed;
+    background: blue;
+
+}
  .menu-drop{
 
     display: none;
+    margin-top: 30px;
+    
  }
 
+ .menu-drop a{
+    color: white;
+    font-size: 1.3em;
+   
+  }
+
+ 
  
 
 body{
@@ -24,7 +44,6 @@ body{
     justify-content: space-between;
     background: yellow;
     align-items: center;
-    
 
 }
 

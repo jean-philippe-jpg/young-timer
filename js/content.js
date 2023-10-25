@@ -73,14 +73,12 @@ $(document).ready(function(){
 
         $('.menu').click(function(){
 
-            $('#drop-down').show();
-            $('#drop-down').css({ "border-radius": "12px","margin-top": "5vh", "margin-left": "20px", "position": "fixed", "height": "250px", "width": "150px", "background": "orange"});
-            $('.menu-drop').css({"display": "block", "margin-top": "30px"});
-            $('#close').css({"color-text": "black"});
+            $('#drop-down').show(200);
+            $('.menu-drop').css({"display": "block"})
         })
 
-        $('.btn-close').click(function(){
-            $('#drop-down').hide();
+        $(' li').click(function(){
+            $('#drop-down').hide(200);
         })
 
 
@@ -95,9 +93,6 @@ var heureGlobal = new Date();
 var année = dateGlobal.getFullYear();
 var mois = dateGlobal.getMonth();
 var jour = dateGlobal.getDate();
-var heure = heureGlobal.getHours();
-var minutes = heureGlobal.getMinutes();
-var seconds = heureGlobal.getSeconds();
 var MOIS = [ "Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"];
  mois = MOIS[mois]
 
